@@ -31,7 +31,7 @@ p {
   width: -webkit-calc(100vw - 20px);
   width: -o-calc(100vw - 20px);
   width: calc(100vw - 20px);
-  margin: 10px auto;
+  margin: 10px;
   border: #777777 1px solid; }
 
 .ring__two {
