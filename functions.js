@@ -3,7 +3,7 @@
 var availwidth = window.screen.availWidth;
 var availheight = window.screen.availHeight;
 
-$( "p:last" ).text(
+$( "h1.info" ).text(
   + availwidth + "x" + availheight );
 
 

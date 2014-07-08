@@ -15,7 +15,7 @@ p {
 
 /* -------- Variables -------- */
 /* -------- Outer Rings -------- */
-.contain__ring {
+.contain {
   max-height: 100vh;
   position: absolute;
   top: 0;
@@ -99,6 +99,13 @@ p {
 
 /* -------- Video -------- */
 .contain__video {
-  height: 100%; }
+  height: 100%;
+  display: inline-block; }
   .contain__video video {
     height: 100%; }
+
+/* -------- Text -------- */
+.contain__text--info {
+  height: 100%;
+  display: inline-block;
+  position: absolute; }

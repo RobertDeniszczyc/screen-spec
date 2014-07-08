@@ -19,7 +19,7 @@ $borderstyle: #777 1px solid;
 
 /* -------- Outer Rings -------- */
 
-.contain__ring {
+.contain {
 	max-height: 100vh;
 	position: absolute;
 	top: 0;
@@ -112,7 +112,16 @@ $borderstyle: #777 1px solid;
 /* -------- Video -------- */
 .contain__video {
 	height: 100%;
+	display: inline-block;
 	video {
 		height: 100%;
 	}
+}
+
+/* -------- Text -------- */
+.contain__text--info {
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+
 }
