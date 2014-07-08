@@ -12,6 +12,11 @@
 	        	<div class="ring__three">
 	        		<div class="ring__four">
 	        			<div class="ring__five">
+	        				<div class="contain__video">
+			        			<video src="http://distilleryvesper7-7.ak.instagram.com/b3dc6b78f14c11e2b46022000a1fb37a_101.mp4" autoplay="autoplay" loop>
+								  Your browser does not support the <code>video</code> element.
+								</video>
+							</div>
 	            		</div>
 	            	</div>
 	            </div>

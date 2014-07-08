@@ -96,3 +96,9 @@ p {
   height: 100px;
   display: block;
   border-bottom: #777777 1px solid; }
+
+/* -------- Video -------- */
+.contain__video {
+  height: 100%; }
+  .contain__video video {
+    height: 100%; }

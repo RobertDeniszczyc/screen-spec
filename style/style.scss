@@ -108,3 +108,11 @@ $borderstyle: #777 1px solid;
 	display: block;
 	border-bottom: $borderstyle;
 }
+
+/* -------- Video -------- */
+.contain__video {
+	height: 100%;
+	video {
+		height: 100%;
+	}
+}

@@ -3,6 +3,8 @@
 var availwidth = window.screen.availWidth;
 var availheight = window.screen.availHeight;
 
+$( "p:last" ).text(
+  + availwidth + "x" + availheight );
 
 
 /* -------- Vertical lines -------- */
