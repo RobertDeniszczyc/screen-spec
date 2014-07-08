@@ -1,2 +1,98 @@
-body * {
-  background: blue; }
+/* -------- Global Resets -------- */
+html, body {
+  max-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  margin: 0; }
+
+/* -------- Variables -------- */
+/* -------- Outer Rings -------- */
+.contain__ring {
+  max-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+
+.ring__one {
+  height: -moz-calc(100vh - 20px);
+  height: -webkit-calc(100vh - 20px);
+  height: -o-calc(100vh - 20px);
+  height: calc(100vh - 20px);
+  width: -moz-calc(100vw - 20px);
+  width: -webkit-calc(100vw - 20px);
+  width: -o-calc(100vw - 20px);
+  width: calc(100vw - 20px);
+  margin: 10px auto;
+  border: #777777 1px solid; }
+
+.ring__two {
+  height: -moz-calc(100vh - 40px);
+  height: -webkit-calc(100vh - 40px);
+  height: -o-calc(100vh - 40px);
+  height: calc(100vh - 40px);
+  width: -moz-calc(100vw - 40px);
+  width: -webkit-calc(100vw - 40px);
+  width: -o-calc(100vw - 40px);
+  width: calc(100vw - 40px);
+  margin: 10px auto;
+  border: #777777 1px solid; }
+
+.ring__three {
+  height: -moz-calc(100vh - 60px);
+  height: -webkit-calc(100vh - 60px);
+  height: -o-calc(100vh - 60px);
+  height: calc(100vh - 60px);
+  width: -moz-calc(100vw - 60px);
+  width: -webkit-calc(100vw - 60px);
+  width: -o-calc(100vw - 60px);
+  width: calc(100vw - 60px);
+  margin: 10px auto;
+  border: #777777 1px solid; }
+
+.ring__four {
+  height: -moz-calc(100vh - 80px);
+  height: -webkit-calc(100vh - 80px);
+  height: -o-calc(100vh - 80px);
+  height: calc(100vh - 80px);
+  width: -moz-calc(100vw - 80px);
+  width: -webkit-calc(100vw - 80px);
+  width: -o-calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  margin: 10px auto;
+  border: #777777 1px solid; }
+
+.ring__five {
+  height: -moz-calc(100vh - 100px);
+  height: -webkit-calc(100vh - 100px);
+  height: -o-calc(100vh - 100px);
+  height: calc(100vh - 100px);
+  width: -moz-calc(100vw - 100px);
+  width: -webkit-calc(100vw - 100px);
+  width: -o-calc(100vw - 100px);
+  width: calc(100vw - 100px);
+  margin: 10px auto;
+  border: #777777 1px solid; }
+
+/* -------- Vertical Lines -------- */
+.vert {
+  width: 100px;
+  height: 100vh;
+  display: inline-block;
+  float: left;
+  border-right: #777777 1px solid; }
+
+/* -------- Horizontal Lines -------- */
+.horiz {
+  width: 100vw;
+  height: 100px;
+  display: block;
+  border-bottom: #777777 1px solid; }
