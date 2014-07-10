@@ -1,7 +1,7 @@
 /* -------- Screen width -------- */
 
-var availwidth = window.screen.availWidth;
-var availheight = window.screen.availHeight;
+var availwidth = window.screen.width;
+var availheight = window.screen.height;
 
 $( "h1.info" ).text(
   + availwidth + "x" + availheight );
