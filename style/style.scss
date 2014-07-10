@@ -11,9 +11,6 @@ div {
 	padding: 0;
 	box-sizing: border-box;
 }
-p {
-	margin: 0;
-}
 
 /* -------- Mixins -------- */
 @mixin font-size($sizeValue: 1.6) {
@@ -28,8 +25,15 @@ $borderstyle: #777 1px solid;
 /* -------- Typography -------- */
 h1 {
 	@include font-size(10);
+	font-family: arial, sans-serif;
 	@media (max-width: 1400px) {
 		@include font-size(7);
+	}
+	@media (max-width: 1100px) {
+		@include font-size(5);
+	}
+	@media (max-width: 900px) {
+		@include font-size(3);
 	}
 }
 
